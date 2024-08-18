@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --change-mar:30px;
+}
+
+body{
+    background-color: #FFCD9E;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+main{
+    background-color: #FFCD9E;
+    height: 500 px;
+}
+
+h2{
+    margin: var(--change-mar);
+    font-size: 35px;
+}
+
+footer{
+    background-color: #282828;
+    color: #FFFFFF;
+   
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.first{
+    margin: 70px;
+    justify-content: space-around;
+    margin-left: 140px;
+}
+
+.second{
+    margin: 50px;
+    padding: 20px 100px;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.para{
+    font-weight:500 ;
+    margin: var(--change-mar);
+    font-size: 18px;
+    color: #484848;
+    
+}
+.one{
+    margin: var(--change-mar);
+    font-size: 18px;
+}
+.form{
+    margin: var(--change-mar);
+}
+.two{
+    margin-left: 80px;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-weight: 500;
+    margin: 10px;
+}
+
+.in{
+    color: #888888;
+    font-weight: 550;
+}
+
+.list1{
+    margin: 30px;
+    
+}
+.list2{
+    margin: 30px;
+    text-align: end ;
+    
+}
+
+input{
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: black;
+    padding: 13px 50px 13px 13px;
+    font-size: 16px;
+    
+}
+
+
+button{
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #282828;
+    padding: 14px 20px;
+    font-weight: 550;
+    margin: 15px;
+}
